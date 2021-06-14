@@ -10,7 +10,6 @@ class Bader < Formula
   # doi "10.1063/1.3553716"
 
   depends_on "gcc" => :build
-  depends_on :fortran => :build
 
   def install
     ENV.deparallelize
